@@ -10,13 +10,13 @@
     flex-direction: column;
     
     width: 100%;
-    height: 650px;
-    background-color: red;
+    height: 675px;
+    
 }
 
 .main-01 .main-img img{
     width: 100%;
-    height: 650px;
+    height: 675px;
     
     
 }
@@ -48,15 +48,25 @@
 
 }
 
+.section-01x {
+    width: 100%;
+}
+
 .section-01 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30%;
-    height: 600px;
+    width: 50%;
+    height: 700px;
     padding-left: 75px;
-    border: 1px solid black;
+    
+    background-color: #f2f2f2;
+    
+    
+    
+    
+    
     
 }
 
@@ -98,5 +108,25 @@
     color: white;
 }
 
+.box-02 {
+    
+    background-color: #f2f2f2;
+    position: absolute;
+    height: 700px;
+    width: 50%;
+    left: 50%;
+  
+}
+
+.section-01 .box-01 {
+    margin-left: -250px;
+    position: absolute;
+}
+
+.section-03 {
+    height: 400px;
+    width: 100%;
+    background-color: #37363b;
+}
 
 
