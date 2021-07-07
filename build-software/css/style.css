@@ -8,7 +8,6 @@
 .main-01 {
     display: flex;
     flex-direction: column;
-    
     width: 100%;
     height: 675px;
     
@@ -17,8 +16,7 @@
 .main-01 .main-img img{
     width: 100%;
     height: 675px;
-    
-    
+ 
 }
 
 .main-01 .title-01 h1 {
@@ -27,7 +25,6 @@
     width: 520px;
     margin-top: -450px;
     margin-left: 100px;
-    
     position: absolute;
     z-index: 1;
     font-size: 85px;
@@ -57,9 +54,6 @@
    height: 200px;
    margin-top: 40px;
    margin-left: -40px;
-
-
-   
    grid-template-columns: repeat(2, 1fr);
    grid-template-areas: 
    "pic1 pic2" 
@@ -68,38 +62,27 @@
    position: absolute;
    z-index: 10000;
    grid-gap: 15px;
-   
-   
-
+ 
 }
 
 .box-02 .box-02img .pic1  {
 
     height: 570px;
     width: 350px;
-    
-    
-
-   
-   
-
+ 
 }
 
 .box-02 .box-02img .pic2  {
     width: 340px;
     height: 275px;
-   
-    
-
+ 
 }
 
 .box-02 .box-02img .div1 {
     width: 340px;
     height: 275px;
     background-color: #4d58d6;
-    
-    
-    
+  
 }
 
 .box-02 .box-02img .div1 p {
@@ -128,14 +111,8 @@
     width: 50%;
     height: 700px;
     padding-left: 75px;
-    
     background-color: #f2f2f2;
-    
-    
-    
-    
-    
-    
+   
 }
 
 .section-01 .box-01 h1 {
@@ -214,8 +191,7 @@
     gap: 120px;
     margin-top: -80px;
     margin-left: 70px;
-    
-    color: white;
+     color: white;
     
 }
 
@@ -228,10 +204,28 @@
     height: 900px;
     width: 100%;
     background-color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
+    display: grid;
     justify-content: center;
     align-items: center;
+    grid-gap: 50px;
+ 
+}
+
+
+
+.section-04 .box-04 .imgbox-04 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 19px;
+   
+}
+
+.section-04 .box-04  h1 {
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 40px;
+    font-weight: 100;
+ 
 }
 
 
@@ -317,7 +311,6 @@
     padding-left: 10px;
     padding: 3px 12px;
 
-
 }
 
 .section-06 .input-06 textarea:nth-child(7) {
@@ -330,8 +323,7 @@
     font-size: 17px;
     padding-left: 10px;
     padding: 12px;
-    
-
+  
 }
 
 .section-06 .input-07 input {
